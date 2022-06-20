@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:47:13 05/13/2022 
-// Design Name: 
-// Module Name:    Control_Unit 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-// Unfinished tasks: control signals for jal, jalr instructions --half done
-//////////////////////////////////////////////////////////////////////////////////
+
 module Control_Unit(
 	input reset,
 	input [6:0] opcode,
