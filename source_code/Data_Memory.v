@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    12:17:50 05/13/2022 
-// Design Name: 
-// Module Name:    Data_Memory 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-// Unfinished tasks: load byte, load half word signed MSB bits
-//////////////////////////////////////////////////////////////////////////////////
+
 module Data_Memory(
 	input reset,
 	input [31:0] address,
