@@ -1,25 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    16:57:44 05/13/2022 
-// Design Name: 
-// Module Name:    processor 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-// Unfinished tasks: Instruction Fetch, ALUsrc, Branch instrcution, Jump instruction, Forwarding unit, Stalling unit --done
-// Extra tasks: Dynamic branch predictor, Flushing unit, Cache
-// Incomplete: jalr, lui
-//////////////////////////////////////////////////////////////////////////////////
+
 module processor(
 	input clk,
 	input reset
