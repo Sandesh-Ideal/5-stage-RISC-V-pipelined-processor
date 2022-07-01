@@ -4,6 +4,7 @@ RISC-V processor
 * Key details of this project are:
   - The datapath supports R-type, I-type, S-type, B-type, J-type, U-type instructions
   - Zero register which does not change the value
+  - Seperate byte addressable Instruction Memory and Data Memory
   - Forwarding Unit for managing Data Hazards (Ex hazard and Mem hazard)
   - Stalling Unit that stalls the processor for a clock cycle (that is inserts a bubble in the instructions)
   - Branching Unit for predicting the branch dynamically using 2-bit saturation counter
